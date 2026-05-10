@@ -14,7 +14,11 @@ class Program
         int squared = SquareNumber(favorite_number);
         DisplayResult(squared,user_name);
 
-        static void DisplayMessage()
+        
+        
+    }
+
+    static void DisplayMessage()
         {
             Console.WriteLine("Welcome to the program!");
         }
@@ -44,7 +48,8 @@ class Program
             Console.WriteLine($"Hello {name}, the square of your favorite number is {number}");
 
         }
-                    
-        
-    }
+                            
+
+
+
 }
